@@ -9,7 +9,7 @@
 Introdução à Programação para Games 🎮
 
 # Liguagem:
-https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white
+![C++-00599C](https://github.com/EwersonNeias/salas_aulas/assets/128439222/48f95e6a-5dd2-4ddb-9e58-22ad77b7d86f)
 
 
 
