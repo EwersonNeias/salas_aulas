@@ -34,5 +34,26 @@ int main() {
 
     cout << endl;
 
+    // Variáveis para armazenar o maior e menor número de alunos e seus respectivos índices
+    int max = 0, min = pessoas[0], max_idx = 1, min_idx = 1;
+
+    // Loop para encontrar a sala com o maior e menor número de alunos
+    for (int i = 0; i < n; i++) {
+        if (pessoas[i] > max) {
+            max = pessoas[i];
+            max_idx = i+1;
+        } 
+        if (pessoas[i] < min) {
+            min = pessoas[i];
+            min_idx = i+1;
+        }
+    }
+
+    // Saída da sala com o maior número de alunos para a tela
+    cout << "Sala com maior numero de alunos: " << max_idx << endl;
+
+    // Saída da sala com o menor número de alunos para a tela
+    cout << "Sala com menor numero de alunos: " << min_idx << endl;
+
     return 0;
 }
